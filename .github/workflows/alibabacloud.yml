@@ -25,9 +25,9 @@ on:
 
 # Environment variables available to all jobs and steps in this workflow.
 env:
-  REGION_ID: cn-hangzhou
+  REGION_ID: --username=aliyun4850049946
   REGISTRY: crpi-319qzyi0f023l4pb.cn-hangzhou.personal.cr.aliyuncs.com
-  NAMESPACE: namespace
+  NAMESPACE: chenjianghua
   IMAGE: repo
   TAG: ${{ github.sha }}
   ACK_CLUSTER_ID: clusterID
